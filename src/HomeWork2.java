@@ -10,6 +10,7 @@ public class HomeWork2 {
 
         double result = Double.parseDouble(price);
         System.out.println("EDV ile birge: " + (result + (result*18/100)));
+        scan.close();
 
 
     }
